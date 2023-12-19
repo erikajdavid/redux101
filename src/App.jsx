@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>Hellow World</h1>
+        <h1>Basic Counter</h1>
       </div>
     </>
   )
