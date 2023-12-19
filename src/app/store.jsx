@@ -2,10 +2,11 @@
 //this stores the whole state of the app in an immutable object tree.
 //the point of redux is to have a single store for your application. 
 
-import { configureStore} from "@reduxjs/toolkit";
+import { configureStore } from "@reduxjs/toolkit";
+import { counterReducer } from "../features/counter"
 
 export const store = configureStore({
     reducer: {
-        //empty for now, but this is where we place all the reducers that we are going to create. 
+        counter: counterReducer, 
     }
 }); 
