@@ -1,12 +1,14 @@
 import './App.css'
+import Counter from './features/counter/Counter'
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1>Basic Counter</h1>
-      </div>
+      <main>
+        <h1>Redux 101</h1>
+        <Counter />
+      </main>
     </>
   )
 }
